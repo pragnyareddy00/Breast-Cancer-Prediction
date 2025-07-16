@@ -74,7 +74,8 @@ Developed a robust **machine learning classification system** to predict whether
 - ✅ Dockerize project for easy deployment
 
 ---
-
+## 📫 Project Credits
+👤 Project done by G Pragnya Reddy of 2nd year CS-DS on 4th April, 2024
 ## ✨ How to Run
 
 ```bash
@@ -83,7 +84,4 @@ python breast_cancer_classification.py
 
 ---
 
-## 📫 Project Credits
-👤 **Project done by G Pragnya Reddy of 2nd year CS-DS on 4th April, 2024**
 
----
