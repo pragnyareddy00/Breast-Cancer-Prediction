@@ -3,13 +3,26 @@
 ## 🎯 Project Overview
 Developed a robust **machine learning classification system** to predict whether breast cancer tumors are **benign** or **malignant** using **clinical biopsy features**.
 
+### 📌 Target Variable:
+- **Diagnosis (Target):** Binary classification:
+    - `0` → **Benign (Non-cancerous)**
+    - `1` → **Malignant (Cancerous)**
+
+### 🎁 Input Features:
+- **30 Numerical Features** extracted from **biopsy test data**, including:
+    - Radius, Texture, Perimeter, Area, Smoothness
+    - Compactness, Concavity, Concave points, Symmetry
+    - Fractal Dimension (mean, standard error, worst)
+
+### 🏷️ Goal:
+- To predict the **diagnosis label (Malignant or Benign)** using machine learning techniques for **early detection of breast cancer**.
+
 ---
 
 ## ✅ Objective
 - Built a complete **end-to-end ML pipeline** for **early-stage breast cancer detection** using structured clinical data.
 - Focused on **optimizing accuracy**, **minimizing false positives**, and improving **model explainability**.
 
----
 
 ## 📊 Key Highlights
 
@@ -47,5 +60,30 @@ Developed a robust **machine learning classification system** to predict whether
 
 ---
 
-## 📈 Project Workflow
+## 💡 Outcome & Skills Gained
+- Hands-on experience in **data preprocessing**, **EDA**, and **classification modeling**.
+- Advanced **Python programming skills** with pandas, seaborn, and scikit-learn.
+- Practical understanding of **healthcare data analytics**.
+- Learned to **compare multiple models**, **evaluate performance**, and **visualize results**.
 
+
+
+## 🚀 Future Scope
+- ✅ Hyperparameter Tuning (GridSearchCV)
+- ✅ Deploy model as a **Flask/Streamlit web app**
+- ✅ Dockerize project for easy deployment
+
+---
+
+## ✨ How to Run
+
+```bash
+pip install -r requirements.txt
+python breast_cancer_classification.py
+
+---
+
+## 📫 Project Credits
+👤 **Project done by G Pragnya Reddy of 2nd year CS-DS on 4th April, 2024**
+
+---
